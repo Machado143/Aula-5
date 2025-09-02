@@ -1,6 +1,5 @@
 {% extends "mestre.html" %}
 
-<<<<<<< HEAD
 
 {% block titulo %}Data Hora atual{% endblock titulo %}
 {% include "links.html" %}
@@ -32,11 +31,3 @@
     setInterval(atualizarHora, 1000); // Atualiza a cada 1 segundo
 </script>
 {% endblock conteudo %}
-=======
-{% block titulo %}Data Hora atual{% endblock titulo %}
-
-{% block conteudo %}
-Agora é:
-{{ datahora_atual|date:"d/m/Y h\ei" }}
-{% endblock conteudo %}
->>>>>>> 84b50a04211a476323ea55508ad13ae40518e90a
