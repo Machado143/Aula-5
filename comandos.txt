@@ -27,11 +27,18 @@ python manage.py runserver
 
 
 
+ 
+1º
+
+git init
+git add .
+git commit -m "Primeiro commit"
+git remote add origin https://github.com/Machado143/Aula-5.git
+git branch -M main
+git push -u origin main
 
 
-
-
-
+2º
 
 git add .
 git commit -m "Descrição das mudanças"

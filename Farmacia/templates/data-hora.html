@@ -1,0 +1,8 @@
+{% extends "mestre.html" %}
+
+{% block titulo %}Data Hora atual{% endblock titulo %}
+
+{% block conteudo %}
+Agora é:
+{{ datahora_atual|date:"d/m/Y h\ei" }}
+{% endblock conteudo %}

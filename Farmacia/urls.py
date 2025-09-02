@@ -1,8 +1,8 @@
-
 from django.contrib import admin
 from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.inicio)
+    path('', views.inicio),
+    path('data-hora/', views.verDataHora),
 ]
